@@ -15,6 +15,8 @@ class ATM_Functions {
         private String acc_num;
         private int balance = 0;
         private final List<String> transactionHistory = new ArrayList<>();
+
+        private int newValue=10;
     }
 
     private final Scanner sc = new Scanner(System.in);
